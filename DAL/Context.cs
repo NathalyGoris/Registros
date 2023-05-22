@@ -5,5 +5,6 @@ using Microsoft.EntityFrameworkCore;
         public Context(DbContextOptions<Context> Opcions) : base(Opcions) { } 
 
         public DbSet <Prioridades> Prioridades { get; set; }
+        public DbSet <Clientes> Clientes { get; set; }
     }
 
