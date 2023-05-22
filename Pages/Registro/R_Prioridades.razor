@@ -1,0 +1,130 @@
+@page "/Prioridad"
+@page "/Prioridad/{PrioridadId:int}"
+@inject PrioridadesBLL PrioridadesBLL
+@inject NotificationService notificationService
+
+<EditForm Model="Prioridad" OnValidSubmit="Guardar">
+    <DataAnnotationsValidator />
+    <div class="card">
+        <div class="card-header">
+            <h1>Registro</h1>
+        </div>
+
+        <div class="card-body">
+            <div class="row">
+                <div class="col-3">
+                    <label>Id: </label>
+                    <input type="number" class="form-control" @bind-value="Prioridad.PrioridadId">
+                </div>
+                <div class="col-3 d-flex align-items-end">
+                    <button type="button" class="btn btn-primary" @onclick="Buscar">
+                        <span class="oi oi-magnifying-glass"></span>
+                    </button>
+                </div>
+            </div>
+            <div> 
+                <label>Codigo: </label>
+                    <InputText @bind-Value="Prioridad.Codigo" class="form-control" />
+                    <ValidationMessage For="@(() => Prioridad.Codigo)" />
+            </div>
+        </div>
+
+        <div class="model-footer">
+            <button type="button" class="btn btn-primary" @onclick="Nuevo">
+                <span class="oi oi-file"></span>Nuevo
+            </button>
+            <button type="submit" class="btn btn-success">
+                <span class="oi oi-delete"></span>Guardar
+            </button>
+            <button type="button" class="btn btn-danger" @onclick="Eliminar">
+                <span class="oi oi-document"></span>Eliminar
+            </button>
+        </div>
+    </div>
+</EditForm>
+
+@code {
+    [Parameter]
+    public int? PrioridadId { get; set; }
+    public Prioridades Prioridad { get; set; } = new Prioridades();
+    public string mensaje { get; set; } = "";
+
+    protected override void OnInitialized()
+    {
+        if (PrioridadId.HasValue)
+        {
+            Prioridad.PrioridadId = PrioridadId.Value;
+            Buscar();
+        }
+    }
+
+    public void Buscar()
+    {
+        var prioridadEncontrada = PrioridadesBLL.Buscar(Prioridad.PrioridadId);
+        if (prioridadEncontrada != null)
+        {
+            Prioridad = prioridadEncontrada;
+        }
+    }
+
+    public void Nuevo()
+    {
+        Prioridad = new Prioridades();
+    }
+
+    public void Guardar()
+     {
+        if (!Validar())
+        {
+            notificationService.ShowNotification(
+                titulo: "Validación",
+                mensaje: "Error Revise los campos",
+                NotificationSeverity.Error);
+            return;
+        }
+
+        var guardo = PrioridadesBLL.Guardar(this.Prioridad);
+        if (guardo)
+        {
+            notificationService.ShowNotification(
+                titulo: "Exito",
+                mensaje: "Guardado correctamente!",
+                NotificationSeverity.Success);
+            Nuevo();
+        }
+        else
+        {
+            notificationService.ShowNotification(
+                titulo: "Error",
+                mensaje: "Ocurrio un error y no fue posible guardar",
+                NotificationSeverity.Error);
+        }
+    }
+
+    public void Eliminar()
+     {
+        Buscar();
+        if (PrioridadesBLL.Eliminar(this.Prioridad.PrioridadId))
+        {
+            notificationService.ShowNotification(
+                titulo: "Exito",
+                mensaje: "Eliminado con Exito",
+                NotificationSeverity.Success);
+            Nuevo();
+        }
+        else
+        {
+            notificationService.ShowNotification(
+                titulo: "Error",
+                mensaje: "Ocurrio un error y no fue posible eliminar",
+                NotificationSeverity.Error);
+        }
+
+    }
+
+    bool Validar()
+    {
+        //todo: Validar que el nombre del sistema no este repetido.
+        return true;
+    }
+}    
