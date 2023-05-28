@@ -6,6 +6,5 @@ public class Prioridades
         public int PrioridadId { get; set; }
 
         [Required (ErrorMessage = "El codigo de la prioridad es obligatorio")]
-
         public string? Codigo { get; set; }
     }

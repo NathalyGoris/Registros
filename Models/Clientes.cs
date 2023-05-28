@@ -14,8 +14,8 @@ using System.ComponentModel.DataAnnotations;
 		[Required (ErrorMessage = "El celular del cliente ingresado es obligatorio")]
 		public string? Celular { get; set; }
 		
-		[Range(1, int.MaxValue, ErrorMessage = "El valor ingresado en la cantidad debe ser mayor que cero.")]
-		public int RNC { get; set; }
+		[Required (ErrorMessage = "El valor ingresado en la cantidad debe ser mayor que cero.")]
+		public string? RNC { get; set; }
 
 		[Required (ErrorMessage = "El email del cliente ingresado es obligatorio")]
 		public string?  Email { get; set; }

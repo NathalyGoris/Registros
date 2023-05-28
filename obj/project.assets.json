@@ -1753,11 +1753,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Registros\\Registros.csproj",
+      "projectUniqueName": "C:\\Aplicada\\Registros\\Registros.csproj",
       "projectName": "Registros",
-      "projectPath": "C:\\Registros\\Registros.csproj",
+      "projectPath": "C:\\Aplicada\\Registros\\Registros.csproj",
       "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
-      "outputPath": "C:\\Registros\\obj\\",
+      "outputPath": "C:\\Aplicada\\Registros\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1768,6 +1768,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1820,7 +1821,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

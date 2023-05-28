@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2u5Taq4Cj4aprd7QbBIehA7LELQiEZ2gMxxWSUNGXBg=",
+  "Hash": "z7W9xWZr5L58wAYLgoCpigWAA0CQvl3lYOvytaxz3so=",
   "Source": "Registros",
   "BasePath": "_content/Registros",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Registros\\wwwroot",
       "Source": "Registros",
-      "ContentRoot": "C:\\Registros\\wwwroot\\",
+      "ContentRoot": "C:\\Aplicada\\Registros\\wwwroot\\",
       "BasePath": "_content/Registros",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Registros\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Registros.styles.css",
+      "Identity": "C:\\Aplicada\\Registros\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Registros.styles.css",
       "SourceId": "Registros",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Registros\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Aplicada\\Registros\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Registros",
       "RelativePath": "Registros.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Registros\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Registros.styles.css"
+      "OriginalItemSpec": "C:\\Aplicada\\Registros\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Registros.styles.css"
     },
     {
-      "Identity": "C:\\Registros\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Registros.bundle.scp.css",
+      "Identity": "C:\\Aplicada\\Registros\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Registros.bundle.scp.css",
       "SourceId": "Registros",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Registros\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Aplicada\\Registros\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Registros",
       "RelativePath": "Registros.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Registros\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Registros.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Aplicada\\Registros\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Registros.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Registros\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Aplicada\\Registros\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "Registros",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Registros\\wwwroot\\",
+      "ContentRoot": "C:\\Aplicada\\Registros\\wwwroot\\",
       "BasePath": "_content/Registros",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Registros\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Aplicada\\Registros\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Registros",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Registros\\wwwroot\\",
+      "ContentRoot": "C:\\Aplicada\\Registros\\wwwroot\\",
       "BasePath": "_content/Registros",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Registros\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Aplicada\\Registros\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "Registros",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Registros\\wwwroot\\",
+      "ContentRoot": "C:\\Aplicada\\Registros\\wwwroot\\",
       "BasePath": "_content/Registros",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Registros\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Aplicada\\Registros\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "Registros",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Registros\\wwwroot\\",
+      "ContentRoot": "C:\\Aplicada\\Registros\\wwwroot\\",
       "BasePath": "_content/Registros",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Registros\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Aplicada\\Registros\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "Registros",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Registros\\wwwroot\\",
+      "ContentRoot": "C:\\Aplicada\\Registros\\wwwroot\\",
       "BasePath": "_content/Registros",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Registros\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Aplicada\\Registros\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "Registros",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Registros\\wwwroot\\",
+      "ContentRoot": "C:\\Aplicada\\Registros\\wwwroot\\",
       "BasePath": "_content/Registros",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Registros\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Aplicada\\Registros\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "Registros",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Registros\\wwwroot\\",
+      "ContentRoot": "C:\\Aplicada\\Registros\\wwwroot\\",
       "BasePath": "_content/Registros",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Registros\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Aplicada\\Registros\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "Registros",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Registros\\wwwroot\\",
+      "ContentRoot": "C:\\Aplicada\\Registros\\wwwroot\\",
       "BasePath": "_content/Registros",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Registros\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Aplicada\\Registros\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "Registros",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Registros\\wwwroot\\",
+      "ContentRoot": "C:\\Aplicada\\Registros\\wwwroot\\",
       "BasePath": "_content/Registros",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Registros\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Aplicada\\Registros\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "Registros",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Registros\\wwwroot\\",
+      "ContentRoot": "C:\\Aplicada\\Registros\\wwwroot\\",
       "BasePath": "_content/Registros",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Registros\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Aplicada\\Registros\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "Registros",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Registros\\wwwroot\\",
+      "ContentRoot": "C:\\Aplicada\\Registros\\wwwroot\\",
       "BasePath": "_content/Registros",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Registros\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Aplicada\\Registros\\wwwroot\\css\\site.css",
       "SourceId": "Registros",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Registros\\wwwroot\\",
+      "ContentRoot": "C:\\Aplicada\\Registros\\wwwroot\\",
       "BasePath": "_content/Registros",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Registros\\wwwroot\\favicon.png",
+      "Identity": "C:\\Aplicada\\Registros\\wwwroot\\favicon.png",
       "SourceId": "Registros",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Registros\\wwwroot\\",
+      "ContentRoot": "C:\\Aplicada\\Registros\\wwwroot\\",
       "BasePath": "_content/Registros",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
