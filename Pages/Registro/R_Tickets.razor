@@ -116,6 +116,15 @@
     public void Guardar()
     
      {
+        if(TicketsBLL.VerificarExistencia(this.Ticket) == false)
+        {
+            notificationService.ShowNotification(
+            titulo: "Validación",
+            mensaje: "Error un cliente ya fue registrado con el mismo Id",
+            NotificationSeverity.Error);
+            return;
+        }
+
         if (!Validar())
         {
             notificationService.ShowNotification(

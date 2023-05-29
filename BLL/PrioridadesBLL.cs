@@ -58,6 +58,5 @@ public class PrioridadesBLL{
     public List<Prioridades> GetList(Expression<Func<Prioridades, bool>> criterio)
     {
         return _context.Prioridades.AsNoTracking().Where(criterio).ToList();
-    }
-
+    }     
 }

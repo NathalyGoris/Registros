@@ -60,4 +60,17 @@ public class TicketsBLL
     {
         return _context.Tickets.AsNoTracking().Where(criterio).ToList();
     }
+    public bool VerificarExistencia(Tickets Ticket)
+    {
+        var TicketIgual = _context.Tickets.Any(o =>o.ClienteId == Ticket.ClienteId);
+
+        if(TicketIgual)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
 }   

@@ -1,4 +1,4 @@
-//TicketId, Fecha, ClienteId, SistemaId, PrioridadId, SolicitadoPor, Asunto, Descripcion
+
 using System.ComponentModel.DataAnnotations;
 
 	public class Tickets
