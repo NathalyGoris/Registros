@@ -13,7 +13,7 @@
 
             <div class="card-body">
                 <div class="input-group mb-3">
-                    <InputText @bind-Value="ClienteId" class="form-control" aria-describedby="buscarButton" />
+                    <InputText @bind-Value="SolicitadoPor " class="form-control" aria-describedby="buscarButton" />
                     <button @onclick="Buscar" class="btn btn-outline-primary" type="button" id="buscarButton">
                         <i class="oi oi-magnifying-glass" />
                     </button>
@@ -65,19 +65,18 @@
 
 @code
 {
-    public string ClienteId { get; set; } = "";
+    public string SolicitadoPor  { get; set; } = "";
     public int conteo { get; set; } = 0;
 
     public List<Tickets> lista { get; set; } = new List<Tickets>();
 
     public void Buscar()
     {
-        if (string.IsNullOrWhiteSpace(ClienteId))
+        if (string.IsNullOrWhiteSpace(SolicitadoPor ))
             lista = TicketsBLL.GetList(s => true);
         else
-            lista = TicketsBLL.GetList(s => s.ClienteId.Contains(ClienteId));
+            lista = TicketsBLL.GetList(s => s.SolicitadoPor .Contains(SolicitadoPor));
             
-
         conteo = lista.Count();
     }
 

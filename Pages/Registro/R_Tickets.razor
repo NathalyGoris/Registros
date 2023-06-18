@@ -1,6 +1,7 @@
 @page "/Ticket"
 @page "/Ticket/{TicketId:int}"
 @inject TicketsBLL TicketsBLL
+@inject ClientesBLL ClientesBLL
 @inject NotificationService notificationService
 
 
@@ -29,13 +30,13 @@
                         <div class="col-6">
                             @*Fecha*@
                             <label>Fecha: </label>
-                            <InputText @bind-Value="Ticket.Fecha" class="form-control" />
+                            <InputDate @bind-Value="Ticket.Fecha" class="form-control" />
                             <ValidationMessage For="@(() => Ticket.Fecha)" />
                         </div>
                         <div class="col-6">
                             @*ClienteId*@
                             <label>ClienteId: </label>
-                            <InputText @bind-Value="Ticket.ClienteId" class="form-control" />
+                            <InputNumber @bind-Value="Ticket.ClienteId" class="form-control" />
                             <ValidationMessage For="@(() => Ticket.ClienteId)" />
                         </div>
              </div>
@@ -43,7 +44,7 @@
                         <div class="col-6">
                             @*SistemaId*@
                             <label>SistemaId: </label>
-                            <InputText @bind-Value="Ticket.SistemaId" class="form-control" />
+                            <InputNumber @bind-Value="Ticket.SistemaId" class="form-control" />
                             <ValidationMessage For="@(() => Ticket.SistemaId)" />
                         </div>
                         <div class="col-6">
@@ -89,6 +90,8 @@
     public int? TicketId { get; set; }
     public Tickets Ticket { get; set; } = new Tickets();
     public string mensaje { get; set; } = "";
+
+    public List<Clientes> ListaClientes = new List<Clientes>();  
 
     protected override void OnInitialized()
     {

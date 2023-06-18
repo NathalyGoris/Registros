@@ -7,13 +7,13 @@ using System.ComponentModel.DataAnnotations;
 		public int TicketId { get; set; }
 
 		[Required (ErrorMessage = "El campo fecha es obligatorio")]
-		public string? Fecha { get; set;}
+		public DateOnly Fecha { get; set;}
 
 		[Required (ErrorMessage = "El campo ClienteId obligatorio")]
-		public string? ClienteId { get; set; }
+		public int ClienteId { get; set; }
 
-		[Required (ErrorMessage = "El istemaId es obligatorio")]
-		public string? SistemaId { get; set; }
+		[Required (ErrorMessage = "El sistemaId es obligatorio")]
+		public int SistemaId { get; set; }
 		
 		[Required (ErrorMessage = "Este campo es obligatorio.")]
 		public string? SolicitadoPor { get; set; }
