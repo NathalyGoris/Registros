@@ -1,7 +1,6 @@
 @page "/TicketDetalle"
 @page "/TicketDetalle/{TicketId:int}"
 @inject TicketsDetalleBLL TicketsDetalleBLL
-@inject TicketsBLL TicketsBLL
 @inject NotificationService notificationService
 
 
@@ -25,29 +24,25 @@
                                 <span class="oi oi-magnifying-glass"></span>
                             </button>
                     </div>
-             </div>
-             <div class="row">
+             </div>            
                         <div class="col-6">
                             @*TicketId*@
-                            <label>Fecha: </label>
-                            <InputDate @bind-Value="TicketsDetalle.TicketId" class="form-control" />
+                            <label>TicketId: </label>
+                            <InputNumber @bind-Value="TicketsDetalle.TicketId" class="form-control" />
                             <ValidationMessage For="@(() => TicketsDetalle.TicketId)" />
                         </div>
-                        <div class="col-6">
+                        <div class="col-4">
                             @*Emisor*@
                             <label>Emisor: </label>
-                            <InputNumber @bind-Value="TicketsDetalle.Emisor" class="form-control" />
+                            <InputText @bind-Value="TicketsDetalle.Emisor" class="form-control" />
                             <ValidationMessage For="@(() => TicketsDetalle.Emisor)" />
                         </div>
-               </div>
-               <div class="row">
-                        <div class="col-6">
+                        <div class="col-7">
                             @*Mensaje*@
-                            <label>SistemaId: </label>
-                            <InputNumber @bind-Value="TicketsDetalle.Mensaje" class="form-control" />
-                            <ValidationMessage For="@(() => TicketsDetalle.Mensaje)" />
+                            <label>Mensaje: </label>
+                            <InputText @bind-Value="TicketsDetalle.Mensaje" class="form-control" />
+                            <ValidationMessage For="@(() => TicketsDetalle.Mensaje)" />                           
                         </div>
-                </div>
         
         </div>
         <div class="card-footer">

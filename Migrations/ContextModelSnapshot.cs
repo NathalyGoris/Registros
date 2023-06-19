@@ -97,6 +97,28 @@ namespace Registros.Migrations
 
                     b.ToTable("Tickets");
                 });
+
+            modelBuilder.Entity("TicketsDetalle", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Emisor")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Mensaje")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("TicketId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TicketsDetalle");
+                });
 #pragma warning restore 612, 618
         }
     }

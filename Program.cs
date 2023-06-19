@@ -13,6 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<PrioridadesBLL>();
 builder.Services.AddScoped<ClientesBLL>();
 builder.Services.AddScoped<TicketsBLL>();
+builder.Services.AddScoped<TicketsDetalleBLL>();
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();

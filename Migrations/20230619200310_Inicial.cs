@@ -59,6 +59,21 @@ namespace Registros.Migrations
                 {
                     table.PrimaryKey("PK_Tickets", x => x.TicketId);
                 });
+
+            migrationBuilder.CreateTable(
+                name: "TicketsDetalle",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    TicketId = table.Column<int>(type: "INTEGER", nullable: false),
+                    Emisor = table.Column<string>(type: "TEXT", nullable: false),
+                    Mensaje = table.Column<string>(type: "TEXT", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_TicketsDetalle", x => x.Id);
+                });
         }
 
         /// <inheritdoc />
@@ -72,6 +87,9 @@ namespace Registros.Migrations
 
             migrationBuilder.DropTable(
                 name: "Tickets");
+
+            migrationBuilder.DropTable(
+                name: "TicketsDetalle");
         }
     }
 }

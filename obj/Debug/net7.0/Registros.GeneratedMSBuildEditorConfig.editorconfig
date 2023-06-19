@@ -9,65 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Registros
 build_property.RootNamespace = Registros
-build_property.ProjectDir = c:\Aplicada\Registros\
+build_property.ProjectDir = C:\Aplicada\Registros\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Aplicada\Registros
+build_property.MSBuildProjectDirectory = C:\Aplicada\Registros
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Aplicada/Registros/App.razor]
+[C:/Aplicada/Registros/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Aplicada/Registros/Pages/Consultas/C_Clientes.razor]
+[C:/Aplicada/Registros/Pages/Consultas/C_Clientes.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VsdGFzXENfQ2xpZW50ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Aplicada/Registros/Pages/Consultas/C_Tickets.razor]
+[C:/Aplicada/Registros/Pages/Consultas/C_Tickets.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VsdGFzXENfVGlja2V0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Aplicada/Registros/Pages/Index.razor]
+[C:/Aplicada/Registros/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Aplicada/Registros/Pages/Registro/R_Clientes.razor]
+[C:/Aplicada/Registros/Pages/Registro/R_Clientes.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm9cUl9DbGllbnRlcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Aplicada/Registros/Pages/Registro/R_Prioridades.razor]
+[C:/Aplicada/Registros/Pages/Registro/R_Prioridades.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm9cUl9QcmlvcmlkYWRlcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Aplicada/Registros/Pages/Registro/R_Tickets.razor]
+[C:/Aplicada/Registros/Pages/Registro/R_Tickets.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm9cUl9UaWNrZXRzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Aplicada/Registros/Pages/Registro/R_TicketsDetalle.razor]
+[C:/Aplicada/Registros/Pages/Registro/R_TicketsDetalle.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm9cUl9UaWNrZXRzRGV0YWxsZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Aplicada/Registros/Shared/SurveyPrompt.razor]
+[C:/Aplicada/Registros/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Aplicada/Registros/_Imports.razor]
+[C:/Aplicada/Registros/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Aplicada/Registros/Shared/MainLayout.razor]
+[C:/Aplicada/Registros/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-hawjvyyabz
 
-[c:/Aplicada/Registros/Shared/NavMenu.razor]
+[C:/Aplicada/Registros/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-yq2ybihz8b
 
-[c:/Aplicada/Registros/Pages/Error.cshtml]
+[C:/Aplicada/Registros/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Aplicada/Registros/Pages/_Host.cshtml]
+[C:/Aplicada/Registros/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

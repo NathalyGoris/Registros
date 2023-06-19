@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 public class TicketsDetalleBLL
 {
-    private Context _context;
+    private readonly Context _context;
 
     public TicketsDetalleBLL(Context context)
     {
